@@ -1,2 +1,5 @@
 *.class
 .*
+pom.xml
+pom.properties
+MANIFEST.MF
