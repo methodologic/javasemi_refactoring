@@ -7,4 +7,10 @@ public class NewReleasePrice extends Price {
 		return Movie.NEW_RELEASE;
 	}
 
+	@Override
+	public int getCharge(int daysRented) {
+		int result = daysRented * 300;
+		return result;
+	}
+
 }
